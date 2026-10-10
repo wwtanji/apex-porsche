@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apex, Porsche in motion</title>
+    <meta name="description" content="An independent gallery of four current Porsche cars, a 0 to 100 km/h run you control with the scroll, and the history behind them." />
+    <meta name="theme-color" content="#0a0a0b" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1732624696535-68022a5b84dc?auto=format&fit=crop&w=2400&q=78" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="masthead__mark" href="#top" data-scroll-link>Apex</a>
+      <nav class="masthead__nav" aria-label="Main">
+        <a href="#models" data-scroll-link>Models</a>
+        <a href="#launch" data-scroll-link>0–100</a>
+        <a href="#heritage" data-scroll-link>Heritage</a>
+      </nav>
+      <span class="masthead__tag">Since 1948</span>
+    </header>
+
+    <main>
+      <section class="hero" id="top" data-hero>
+        <img
+          class="hero__image"
+          data-hero-image
+          src="https://images.unsplash.com/photo-1732624696535-68022a5b84dc?auto=format&fit=crop&w=2400&q=78"
+          srcset="
+            https://images.unsplash.com/photo-1732624696535-68022a5b84dc?auto=format&fit=crop&w=1080&q=78 1080w,
+            https://images.unsplash.com/photo-1732624696535-68022a5b84dc?auto=format&fit=crop&w=1600&q=78 1600w,
+            https://images.unsplash.com/photo-1732624696535-68022a5b84dc?auto=format&fit=crop&w=2400&q=78 2400w
+          "
+          sizes="100vw"
+          alt="A Porsche 911 with a tall rear wing silhouetted against an orange sunset"
+        />
+        <div class="hero__shade" data-hero-shade></div>
+        <div class="hero__copy">
+          <p class="hero__eyebrow" data-hero-part>Porsche, in motion</p>
+          <h1 class="hero__title" data-hero-title>Apex</h1>
+          <div class="hero__foot">
+            <p class="hero__lead" data-hero-part>Four cars, one 0–100 run you control with the scroll, and seventy-eight years of the same idea.</p>
+            <a class="hero__cue" href="#models" data-scroll-link data-hero-part>Start the engine</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement">
+        <p class="eyebrow">The idea</p>
+        <p class="statement__text" data-statement>
+          Since 1963 the 911 has kept its flat-six behind the rear axle. Engineers have spent sixty years making a car
+          that should not work feel like the most natural thing on the road.
+        </p>
+      </section>
+
+      <section class="models" id="models" data-models>
+        <div class="models__track" data-models-track>
+          <header class="models__intro">
+            <p class="eyebrow">The line-up</p>
+            <h2 class="section-title">Four ways to arrive&nbsp;early</h2>
+            <p class="models__lead">From a naturally aspirated GT3 to a 952 PS electric saloon. Keep scrolling, the cars will come to you.</p>
+          </header>
+        </div>
+        <div class="models__progress"><span data-models-progress></span></div>
+      </section>
+
+      <section class="launch" id="launch" data-launch>
+        <div class="launch__media">
+          <img
+            data-launch-image
+            src="https://images.unsplash.com/photo-1732624697571-e877b2b4f5ba?auto=format&fit=crop&w=2400&q=78"
+            srcset="
+              https://images.unsplash.com/photo-1732624697571-e877b2b4f5ba?auto=format&fit=crop&w=1080&q=78 1080w,
+              https://images.unsplash.com/photo-1732624697571-e877b2b4f5ba?auto=format&fit=crop&w=2400&q=78 2400w
+            "
+            sizes="100vw"
+            alt="A Porsche driving away down a winding road at dusk, tail lights glowing"
+            loading="lazy"
+          />
+        </div>
+        <div class="launch__lines" data-launch-lines aria-hidden="true"></div>
+        <div class="launch__hud">
+          <p class="eyebrow">Launch control · 911 Turbo S</p>
+          <p class="launch__speed"><span data-launch-speed>100</span><small>km/h</small></p>
+          <div class="launch__bar"><span data-launch-needle></span></div>
+          <p class="launch__time"><span data-launch-time>2.50</span> s</p>
+          <p class="launch__note">Scroll to accelerate. The real car does it in two and a half seconds.</p>
+        </div>
+      </section>
+
+      <section class="details">
+        <header class="details__intro">
+          <p class="eyebrow" data-reveal>Up close</p>
+          <h2 class="section-title" data-reveal>Every detail has a&nbsp;job</h2>
+        </header>
+        <div class="details__grid">
+          <figure class="detail detail--tall" data-reveal>
+            <div class="detail__frame">
+              <img data-parallax src="https://images.unsplash.com/photo-1563156454-0be991636c70?auto=format&fit=crop&w=1400&q=78" alt="A Porsche steering wheel and instrument cluster in a dark cabin" loading="lazy" />
+            </div>
+            <figcaption><strong>Rev counter in the middle.</strong> The most important number sits straight ahead, as it has in every 911.</figcaption>
+          </figure>
+          <figure class="detail" data-reveal>
+            <div class="detail__frame">
+              <img data-parallax src="https://images.unsplash.com/photo-1699325536076-91d01d5e2ad5?auto=format&fit=crop&w=1400&q=78" alt="The light bar and lettering across the tail of a Porsche 911 GT3 RS" loading="lazy" />
+            </div>
+            <figcaption><strong>One light, edge to edge.</strong> A single LED strip runs the full width of the tail.</figcaption>
+          </figure>
+          <figure class="detail" data-reveal>
+            <div class="detail__frame">
+              <img data-parallax src="https://images.unsplash.com/photo-1727754005954-3d8cfae516b8?auto=format&fit=crop&w=1400&q=78" alt="A Porsche wheel with a red brake caliper behind the spokes" loading="lazy" />
+            </div>
+            <figcaption><strong>Brakes you can see.</strong> Caliper colour tells you which brakes are fitted before the car moves.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="aircooled">
+        <div class="aircooled__copy">
+          <p class="eyebrow" data-reveal>1963–1998</p>
+          <h2 class="section-title" data-reveal>Air-cooled</h2>
+          <p class="aircooled__text" data-reveal>
+            For thirty-five years the 911 cooled its engine with air alone. The last air-cooled 911 left the line in
+            1998, and collectors have been chasing them ever since.
+          </p>
+        </div>
+        <div class="aircooled__strip">
+          <figure class="aircooled__frame" data-reveal>
+            <img data-parallax src="https://images.unsplash.com/photo-1707566926203-08def48cdbd0?auto=format&fit=crop&w=1400&q=78" alt="A black classic Porsche 911 Turbo with a whale-tail spoiler on a city street" loading="lazy" />
+          </figure>
+          <figure class="aircooled__frame" data-reveal>
+            <img data-parallax src="https://images.unsplash.com/photo-1601465621041-643db9cc051d?auto=format&fit=crop&w=1400&q=78" alt="A black classic Porsche 911 with round headlights in a garage" loading="lazy" />
+          </figure>
+          <figure class="aircooled__frame" data-reveal>
+            <img data-parallax src="https://images.unsplash.com/photo-1609903730357-fc7951f05910?auto=format&fit=crop&w=1400&q=78" alt="Close-up of the round headlight and wing of a black classic 911" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="heritage" id="heritage">
+        <p class="eyebrow" data-reveal>Heritage</p>
+        <ol class="timeline">
+          <li class="timeline__item" data-reveal>
+            <span class="timeline__year">1948</span>
+            <p>The first car to carry the Porsche name, the 356 “No. 1” roadster, is registered in Gmünd, Austria.</p>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <span class="timeline__year">1963</span>
+            <p>The 901 is shown at the Frankfurt motor show. Within a year it is renamed, and the 911 begins.</p>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <span class="timeline__year">1974</span>
+            <p>The 911 Turbo arrives at the Paris motor show and turns the whale tail into an icon.</p>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <span class="timeline__year">1998</span>
+            <p>The last air-cooled 911 is built. Its successor is cooled by water.</p>
+          </li>
+          <li class="timeline__item" data-reveal>
+            <span class="timeline__year">2019</span>
+            <p>The Taycan launches as Porsche’s first fully electric car.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="track">
+        <div class="track__media">
+          <img
+            data-parallax
+            src="https://images.unsplash.com/photo-1686426767098-9bae2879a14a?auto=format&fit=crop&w=2400&q=78"
+            srcset="
+              https://images.unsplash.com/photo-1686426767098-9bae2879a14a?auto=format&fit=crop&w=1080&q=78 1080w,
+              https://images.unsplash.com/photo-1686426767098-9bae2879a14a?auto=format&fit=crop&w=2400&q=78 2400w
+            "
+            sizes="100vw"
+            alt="A Porsche race car in a pool of light on a dark track"
+            loading="lazy"
+          />
+        </div>
+        <div class="track__copy">
+          <p class="track__figure"><span data-counter data-to="19">19</span></p>
+          <p class="track__text" data-reveal>overall wins at the 24 Hours of Le Mans. More than any other manufacturer.</p>
+        </div>
+      </section>
+
+      <section class="finale">
+        <div class="finale__media">
+          <img
+            data-parallax
+            src="https://images.unsplash.com/photo-1732624697703-c5b0d3110cb4?auto=format&fit=crop&w=2400&q=78"
+            srcset="
+              https://images.unsplash.com/photo-1732624697703-c5b0d3110cb4?auto=format&fit=crop&w=1080&q=78 1080w,
+              https://images.unsplash.com/photo-1732624697703-c5b0d3110cb4?auto=format&fit=crop&w=2400&q=78 2400w
+            "
+            sizes="100vw"
+            alt="A black Porsche 911 driving on an open road at sunset"
+            loading="lazy"
+          />
+        </div>
+        <div class="finale__copy">
+          <h2 class="finale__title" data-reveal>See you at the&nbsp;apex</h2>
+          <a class="button" href="#top" data-scroll-link data-reveal>Back to the start</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Apex is an independent design study. It is not affiliated with, endorsed or sponsored by Dr. Ing. h.c. F. Porsche
+        AG. Specifications from Porsche press material.
+      </p>
+      <p>
+        Photography from Unsplash by Jack White, Yannic Alexander, Vincent Raine, Rico Reynaldi, Nick Rickert, Aiden
+        Rosewell, Hamza Şamil Yavuz, serjan midili, Ian Anderson and Maurice Sahl.
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
